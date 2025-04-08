@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yago Almeida</title>
+    <link rel="stylesheet" href="resources/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header id="header">
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>  
+      <section id="about">
+        <div id="about-img">
+          <img src="./resources/images/Yago.jpg" alt="Foto de perfil" />
+          <h2>Yago Almeida</h2>
+          <b>
+            <h3 class="role">Backend <label class="role-type">Developer</label>
+            </h3>
+            </b>
+        </div>
+        <div>   
+          <br>
+          <p class="about-phrase">
+            A developer experienced in Java, .NET, Angular, and web
+            technologies, with a passion for handling various aspects of project
+            development. Skilled in UML Diagrams, task management, version
+            control, class structure design, feature testing, and CI/CD
+            pipelines.
+          </p>
+          <br>
+          <p class="about-phrase">
+            Enthusiastic about continuous learning and adopting new
+            technologies to enhance my skills and contribute effectively to
+            innovative projects.
+          </p>
+        </div>
+      </section>
+
+      <!-- Experiência -->
+      <section id="Projects">
+        <h2 class="sub-title center">Projects</h2>
+        <div class="tabs">
+            <!-- Backend Button -->
+            <button class="tab" data-target="#backendModal" type="button">
+              <svg width="60" height="60" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <circle cx="4" cy="12" r="2" fill="#960018"/>
+                  <circle cx="20" cy="12" r="2" fill="#960018"/>
+                  <circle cx="12" cy="4" r="2" fill="#960018"/>
+                  <circle cx="12" cy="20" r="2" fill="#960018"/>
+                  <line x1="5.42" y1="10.92" x2="10.58" y2="5.84" stroke="#960018" stroke-width="2"/>
+                  <line x1="5.42" y1="13.08" x2="10.58" y2="18.16" stroke="#960018" stroke-width="2"/>
+                  <line x1="13.42" y1="5.84" x2="18.58" y2="10.92" stroke="#960018" stroke-width="2"/>
+                  <line x1="13.42" y1="18.16" x2="18.58" y2="13.08" stroke="#960018" stroke-width="2"/>
+              </svg>
+              <div>
+                <h2>Backend Projects</h2>
+                <p>Developing desktop applications, API services, database management, cloud deploy and container images build.</p>
+              </div>
+            </button>
+            <!-- Frontend Button -->
+            <button class="tab" data-target="#frontendModal" type="button">
+              <svg width="60" height="60" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <rect x="4" y="4" width="16" height="16" rx="2" stroke="#960018" stroke-width="2"/>
+                <circle cx="8" cy="8" r="1" fill="#960018"/>
+                <circle cx="12" cy="8" r="1" fill="#960018"/>
+                <circle cx="16" cy="8" r="1" fill="#960018"/>
+                <line x1="6" y1="12" x2="18" y2="12" stroke="#960018" stroke-width="2"/>
+                <line x1="6" y1="16" x2="18" y2="16" stroke="#960018"/>
+              </svg>
+              <div>
+                <h2>Frontend Projects</h2>
+                <p>Creating responsive UIs, user interactions, and modern web interfaces.</p>
+              </div>
+            </button>
+          </div>
+      
+        <!-- Modals for displaying projects -->
+        <div id="backendModal" class="modal">
+            <div class="modal-content">
+              <span class="close-btn">&times;</span>
+              <h3 class="sub-title center">Backend Projects</h3>
+              <div class="modal-body">
+                <!-- Section 1 -->
+                <div class="section">
+                  <h4 class="sub-title center">Prostudy-api</h4>
+                  <div class="logo">
+                    <svg width="75" height="73" version="1.1" xmlns="http://www.w3.org/2000/svg" desc="Created with imagetracer.js version 1.2.6" >
+                        <path fill="#960018" stroke="#960018" stroke-width="1" opacity="0.011764705882352941" d="M 0 0 L 75 0 L 75 73 L 0 73 L 0 0 Z M 50 11.5 L 46 12.5 L 42.5 14.5 L 27 26.5 L 26 28 L 47 17.5 L 50.5 16.5 L 55 17 L 58 21 L 58 26.5 L 56 33.5 L 56.5 34.5 L 60 37 L 62.5 27 L 62.5 20.5 L 61 16.5 Q 58 11 50 11.5 Z M 21.5 12 L 15.5 14.5 L 13 19 L 12 23.5 L 13 28.5 L 15.5 33 L 27 47.5 Q 26.5 48.5 28 48 L 28.5 48.5 L 17.5 25.5 Q 17 21 18.5 19 L 22 16.5 L 26.5 16.5 L 34 18.5 L 37 16 Q 38.5 16.5 37.5 14.5 L 27 12 L 21.5 12 Z M 47 25.5 L 46.5 27 L 57.5 49 Q 58.5 53.5 56.5 55.5 L 53 58 L 50 58 L 43 56 L 40.5 56 L 37.5 59.5 L 38.5 60 L 40.5 60 L 47.5 62 Q 55.5 63 59.5 59.5 L 62.5 54 L 62.5 48 L 60.5 43.5 L 47 25.5 Z M 36 33 L 34 34 Q 33 35 33.5 38.5 Q 34.5 41 39 40 L 40.5 38 L 41 34 L 39.5 33 L 36 33 Z M 15 37 L 12.5 48 Q 11.5 56 15 59.5 L 21 62.5 Q 28 63.5 31.5 60.5 L 48.5 47.5 L 49.5 46 L 38 50.5 L 35 57 L 30.5 58 L 29.5 56.5 L 30 54 L 30.5 51 L 31 44 L 30 41.5 Q 29.5 40 30 38.5 L 31.5 37 L 30 37.5 L 25 36.5 L 15 37 Z " />
+                        <path fill="#960018" stroke="#960018" stroke-width="1" opacity="0.9529411764705882" d="M 49.75 11.5 Q 58.1 11.15 61 16.25 L 62.5 20.25 L 62.5 26.75 L 60 37 L 56.5 34.25 L 56 33.25 L 58 26.25 L 58 20.75 L 54.75 17 L 50.25 16.5 L 46.75 17.5 L 25.75 28 L 27 26 L 42.25 14.5 L 45.75 13 L 49.75 11.5 Z " />
+                        <path fill="#960018" stroke="#960018" stroke-width="1" opacity="0.9529411764705882" d="M 21.25 12 L 26.75 12 L 37.5 14.5 Q 38.25 16.4 36.75 16 L 33.75 18.5 L 26.75 16.5 L 21.75 16.5 L 18.5 18.75 Q 16.75 20.75 17.5 25.25 L 28.5 48.25 L 27.75 48 Q 26.5 48.4 27 47.25 L 15.5 32.75 L 13 28.25 L 12 23.25 L 13 18.5 L 15.5 14 L 21.25 12 Z " />
+                        <path fill="#960018" stroke="#960018" stroke-width="1" opacity="0.9529411764705882" d="M 46.75 25.5 L 60.5 43.25 L 62.5 47.5 L 62.5 53.75 L 59.25 59.5 Q 55.65 63.15 47.25 62 L 40.25 60 L 38.25 60 L 37.5 59.25 L 40.25 56 L 42.5 56 L 49.75 58 L 52.75 58 L 56.5 55 Q 58.25 53.25 57.5 49.25 L 46.5 25.75 L 46.75 25.5 Z " />
+                        <path fill="#960018" stroke="#960018" stroke-width="1" opacity="0.9529411764705882" d="M 35.75 33 L 38 33 L 40 34.25 Q 40.8 35.05 40.5 37.75 L 38.5 40 L 35 40 L 31.75 38.25 Q 30.75 36.5 31 37.25 L 35.75 33 Z " />
+                        <path fill="#960018" stroke="#960018" stroke-width="1" opacity="0.9529411764705882" d="M 15 37.25 L 17.5 38.75 Q 19 39.75 18.5 42.75 L 17 47.25 L 17 53.25 L 18.75 56.5 Q 20.5 58.25 25.25 57.5 L 28.75 56.5 Q 38.15 50.4 49.25 46.5 L 48.25 47.5 L 31.25 60.5 Q 27.8 63.3 20.75 62.5 L 15 58.75 Q 12 56 13 53.25 L 15 37.25 Z " />
+                    </svg>
+                </div>
+                  <p>
+                    Built with Java Spring, this application provides API services to help users learn programming skills.
+                     It offers access to YouTube videos, skill assessments, an achievement tracking system, 
+                     and features for authentication and authorization.  
+                  </p>
+                  
+                  <!-- Carousel -->
+                  <div class="carousel">
+                    <div class="carousel-item active"><img src="image1.jpg" alt="Screenshot 1"></div>
+                    <div class="carousel-item"><img src="image2.jpg" alt="Screenshot 2"></div>
+                    <div class="carousel-item">
+                        <img src="./resources/images/user-case.jpg" alt="A user case diagram"/>
+                    </div>
+                    <div class="carousel-item"><img src="image3.jpg" alt="Screenshot 3"></div>
+                  </div>
+                  <div class="carousel-controls">
+                    <button class="prev">&#10094;</button>
+                    <button class="next">&#10095;</button>
+                  </div>
+                  
+                  <!-- Links -->
+                  <div class="project-links">
+                    <a href="https://github.com/PlanBTechnology/ProStudy" target="_blank"><i class="fab fa-github"></i>ProStudy</a>
+                    <a href="https://prostudy-api.azurewebsites.net/swagger-ui/index.html" target="_blank"><i class="fas fa-code"></i>Swagger</a>
+                    <a href="https://hub.docker.com/r/yagohfa/prostudy-backend" target="_blank"><i class="fab fa-docker"></i>Docker Hub</a>
+                  </div>
+                </div>
+          
+                <!-- Section 2 -->
+                <div class="section">
+                  <h4>Project 2: RESTful API</h4>
+                  <p>A Spring Boot application offering CRUD operations and user authentication with JWT.</p>
+                  
+                  <!-- Carousel -->
+                  <div class="carousel">
+                    <div class="carousel-item active"><img src="image4.jpg" alt="Screenshot 1"></div>
+                    <div class="carousel-item"><img src="image5.jpg" alt="Screenshot 2"></div>
+                    <div class="carousel-item"><img src="image6.jpg" alt="Screenshot 3"></div>
+                  </div>
+                  <div class="carousel-controls">
+                    <button class="prev">&#10094;</button>
+                    <button class="next">&#10095;</button>
+                  </div>
+                  
+                  <!-- Links -->
+                  <div class="project-links">
+                    <a href="https://github.com/your-repo" target="_blank">GitHub Repository</a>
+                    <a href="" target="_blank">Swagger</a>
+                    <a href="" target="_blank">Docker Hub</a>
+                  </div>
+                </div>
+          
+              </div>
+            </div>
+          </div>
+      
+        <div id="frontendModal" class="modal">
+          <div class="modal-content">
+            <span class="close-btn">&times;</span>
+            <h3>Frontend Projects</h3>
+            <p>Experiência com .NET e C# em desenvolvimento de aplicações corporativas.</p>
+            <!-- Add your frontend projects here -->
+          </div>
+        </div>
+      </section>
+      
+
+      <!-- Contato -->
+      <section id="contact">
+        <h2 class="sub-title">Contact</h2>
+        <p>
+          <a href="https://github.com/yagohfa" target="_blank">
+            <i class="fab fa-github"></i>YagoHFA
+          </a>
+          <a href="mailto:yagohfa.dev@gmail.com">
+            <i class="fas fa-envelope"></i>
+            yagohfa.dev@gmail.com
+          </a>
+          <a href="https://linkedin.com/in/yagohfa" target="_blank">
+            <i class="fab fa-linkedin"></i>Yago Almeida
+          </a>
+          <a href="https://hub.docker.com/u/yagohfa" target="_blank">
+            <i class="fab fa-docker"></i>Yago Henrique
+          </a>
+        </p>
+      </section>
+    </main>
+
+    <script src="resources/js/script.js"></script>
+  </body>
+</html>
