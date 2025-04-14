@@ -18,7 +18,7 @@ body {
 }
 
 header {
-    background: linear-gradient(#600010,#000);
+    background: #2d2c2c;
     padding: 10px;
     position: fixed;
     width: 100%;
@@ -65,7 +65,7 @@ section {
     border: none;
     padding: 25px;
     cursor: pointer;
-    color: white;
+    color: #960018;
     margin-right: 5px;
     transition: background-color 0.3s;
     border-radius: 3%;
